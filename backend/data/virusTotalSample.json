@@ -1,0 +1,23 @@
+[
+  {
+    "domain": "suspicious-malware-site.com",
+    "detections": 8,
+    "engines": ["Kaspersky", "Norton", "Avast", "Bitdefender", "Malwarebytes", "ESET", "TrendMicro", "Sophos"],
+    "last_scan": "2024-01-15T12:00:00Z",
+    "category": "malware"
+  },
+  {
+    "domain": "phishing-bank-site.org",
+    "detections": 12,
+    "engines": ["Kaspersky", "Norton", "Avast", "Bitdefender", "Malwarebytes", "ESET", "TrendMicro", "Sophos", "McAfee", "F-Secure", "Panda", "Avira"],
+    "last_scan": "2024-01-14T18:30:00Z",
+    "category": "phishing"
+  },
+  {
+    "domain": "crypto-scam-investment.net",
+    "detections": 5,
+    "engines": ["Kaspersky", "Norton", "Avast", "Bitdefender", "Malwarebytes"],
+    "last_scan": "2024-01-13T14:15:00Z",
+    "category": "scam"
+  }
+]

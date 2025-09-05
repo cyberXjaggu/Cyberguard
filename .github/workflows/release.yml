@@ -1,0 +1,48 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+        body: |
+          ## 🚀 CyberGuard Release ${{ github.ref }}
+          
+          ### What's New
+          - Bug fixes and improvements
+          - Enhanced security features
+          - Performance optimizations
+          
+          ### Installation
+          ```bash
+          git clone https://github.com/yourusername/cyberguard.git
+          cd cyberguard
+          ./start-mvp.sh
+          ```
+          
+          ### Demo Credentials
+          - Email: admin@cyberguard.com
+          - Password: admin123
+          
+          ### Documentation
+          - [README](README.md)
+          - [Contributing Guide](CONTRIBUTING.md)
+          - [Deployment Guide](DEPLOYMENT_GUIDE.md)

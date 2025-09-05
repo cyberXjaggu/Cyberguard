@@ -1,0 +1,255 @@
+[
+  {
+    "domain": "paypal-security-verification.com",
+    "riskScore": 95,
+    "riskLevel": "critical",
+    "category": "phishing",
+    "source": "manual",
+    "firstSeen": "2024-01-15T10:30:00Z",
+    "lastSeen": "2024-01-15T10:30:00Z",
+    "isActive": true,
+    "tags": ["phishing", "paypal", "credential-theft"],
+    "indicators": [
+      {
+        "type": "typosquatting",
+        "description": "Impersonating PayPal domain",
+        "confidence": 95
+      },
+      {
+        "type": "suspicious_content",
+        "description": "Hosting fake login page",
+        "confidence": 90
+      }
+    ],
+    "whois": {
+      "registrar": "Unknown Registrar",
+      "registrationDate": "2024-01-10T00:00:00Z",
+      "expirationDate": "2025-01-10T00:00:00Z",
+      "nameServers": ["ns1.suspicious-dns.com", "ns2.suspicious-dns.com"],
+      "country": "Unknown"
+    },
+    "sslInfo": {
+      "hasSSL": true,
+      "issuer": "Self-signed Certificate",
+      "validFrom": "2024-01-10T00:00:00Z",
+      "validTo": "2025-01-10T00:00:00Z",
+      "isExpired": false
+    }
+  },
+  {
+    "domain": "free-software-downloads.net",
+    "riskScore": 90,
+    "riskLevel": "critical",
+    "category": "malware",
+    "source": "osint",
+    "firstSeen": "2024-01-12T08:15:00Z",
+    "lastSeen": "2024-01-15T14:20:00Z",
+    "isActive": true,
+    "tags": ["malware", "software", "distribution"],
+    "indicators": [
+      {
+        "type": "suspicious_content",
+        "description": "Distributing malware disguised as legitimate software",
+        "confidence": 90
+      },
+      {
+        "type": "recent_registration",
+        "description": "Domain registered recently",
+        "confidence": 70
+      }
+    ],
+    "whois": {
+      "registrar": "Malicious Registrar Inc",
+      "registrationDate": "2024-01-05T00:00:00Z",
+      "expirationDate": "2025-01-05T00:00:00Z",
+      "nameServers": ["ns1.malware-dns.net", "ns2.malware-dns.net"],
+      "country": "Unknown"
+    },
+    "sslInfo": {
+      "hasSSL": false,
+      "isExpired": false
+    }
+  },
+  {
+    "domain": "chase-bank-verification.org",
+    "riskScore": 85,
+    "riskLevel": "high",
+    "category": "phishing",
+    "source": "manual",
+    "firstSeen": "2024-01-14T16:45:00Z",
+    "lastSeen": "2024-01-15T09:30:00Z",
+    "isActive": true,
+    "tags": ["phishing", "banking", "chase"],
+    "indicators": [
+      {
+        "type": "typosquatting",
+        "description": "Impersonating Chase Bank",
+        "confidence": 85
+      },
+      {
+        "type": "suspicious_tld",
+        "description": "Using .org TLD for banking site",
+        "confidence": 60
+      }
+    ],
+    "whois": {
+      "registrar": "Suspicious Domains LLC",
+      "registrationDate": "2024-01-08T00:00:00Z",
+      "expirationDate": "2025-01-08T00:00:00Z",
+      "nameServers": ["ns1.fake-bank-dns.com", "ns2.fake-bank-dns.com"],
+      "country": "Unknown"
+    },
+    "sslInfo": {
+      "hasSSL": true,
+      "issuer": "Fake SSL Authority",
+      "validFrom": "2024-01-08T00:00:00Z",
+      "validTo": "2025-01-08T00:00:00Z",
+      "isExpired": false
+    }
+  },
+  {
+    "domain": "bitcoin-investment-opportunity.com",
+    "riskScore": 70,
+    "riskLevel": "high",
+    "category": "phishing",
+    "source": "heuristic",
+    "firstSeen": "2024-01-13T12:00:00Z",
+    "lastSeen": "2024-01-15T11:15:00Z",
+    "isActive": true,
+    "tags": ["scam", "cryptocurrency", "investment"],
+    "indicators": [
+      {
+        "type": "suspicious_content",
+        "description": "Promising unrealistic investment returns",
+        "confidence": 70
+      },
+      {
+        "type": "recent_registration",
+        "description": "Domain registered recently",
+        "confidence": 50
+      }
+    ],
+    "whois": {
+      "registrar": "Crypto Scam Domains",
+      "registrationDate": "2024-01-06T00:00:00Z",
+      "expirationDate": "2025-01-06T00:00:00Z",
+      "nameServers": ["ns1.crypto-scam.net", "ns2.crypto-scam.net"],
+      "country": "Unknown"
+    },
+    "sslInfo": {
+      "hasSSL": true,
+      "issuer": "Let's Encrypt",
+      "validFrom": "2024-01-06T00:00:00Z",
+      "validTo": "2025-01-06T00:00:00Z",
+      "isExpired": false
+    }
+  },
+  {
+    "domain": "gooogle.com",
+    "riskScore": 60,
+    "riskLevel": "medium",
+    "category": "suspicious",
+    "source": "heuristic",
+    "firstSeen": "2024-01-11T14:30:00Z",
+    "lastSeen": "2024-01-15T13:45:00Z",
+    "isActive": true,
+    "tags": ["typosquatting", "google", "suspicious"],
+    "indicators": [
+      {
+        "type": "typosquatting",
+        "description": "Typosquatting Google domain",
+        "confidence": 80
+      },
+      {
+        "type": "suspicious_content",
+        "description": "May redirect to malicious content",
+        "confidence": 40
+      }
+    ],
+    "whois": {
+      "registrar": "Typosquatting Domains Inc",
+      "registrationDate": "2024-01-03T00:00:00Z",
+      "expirationDate": "2025-01-03T00:00:00Z",
+      "nameServers": ["ns1.typo-dns.com", "ns2.typo-dns.com"],
+      "country": "Unknown"
+    },
+    "sslInfo": {
+      "hasSSL": false,
+      "isExpired": false
+    }
+  },
+  {
+    "domain": "facebook-login-security.com",
+    "riskScore": 88,
+    "riskLevel": "high",
+    "category": "phishing",
+    "source": "manual",
+    "firstSeen": "2024-01-09T09:20:00Z",
+    "lastSeen": "2024-01-14T18:00:00Z",
+    "isActive": false,
+    "tags": ["phishing", "facebook", "social-media"],
+    "indicators": [
+      {
+        "type": "typosquatting",
+        "description": "Impersonating Facebook login",
+        "confidence": 88
+      },
+      {
+        "type": "suspicious_content",
+        "description": "Hosting fake social media login page",
+        "confidence": 85
+      }
+    ],
+    "whois": {
+      "registrar": "Social Media Scams LLC",
+      "registrationDate": "2024-01-02T00:00:00Z",
+      "expirationDate": "2025-01-02T00:00:00Z",
+      "nameServers": ["ns1.social-scam.net", "ns2.social-scam.net"],
+      "country": "Unknown"
+    },
+    "sslInfo": {
+      "hasSSL": true,
+      "issuer": "Fake Social SSL",
+      "validFrom": "2024-01-02T00:00:00Z",
+      "validTo": "2025-01-02T00:00:00Z",
+      "isExpired": false
+    }
+  },
+  {
+    "domain": "urgent-security-update.net",
+    "riskScore": 75,
+    "riskLevel": "high",
+    "category": "phishing",
+    "source": "osint",
+    "firstSeen": "2024-01-10T11:00:00Z",
+    "lastSeen": "2024-01-15T16:30:00Z",
+    "isActive": true,
+    "tags": ["email", "campaign", "phishing"],
+    "indicators": [
+      {
+        "type": "suspicious_content",
+        "description": "Used in mass phishing email campaigns",
+        "confidence": 75
+      },
+      {
+        "type": "recent_registration",
+        "description": "Domain registered recently",
+        "confidence": 60
+      }
+    ],
+    "whois": {
+      "registrar": "Email Scam Domains",
+      "registrationDate": "2024-01-07T00:00:00Z",
+      "expirationDate": "2025-01-07T00:00:00Z",
+      "nameServers": ["ns1.email-scam.net", "ns2.email-scam.net"],
+      "country": "Unknown"
+    },
+    "sslInfo": {
+      "hasSSL": true,
+      "issuer": "Let's Encrypt",
+      "validFrom": "2024-01-07T00:00:00Z",
+      "validTo": "2025-01-07T00:00:00Z",
+      "isExpired": false
+    }
+  }
+]

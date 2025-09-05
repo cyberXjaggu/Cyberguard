@@ -1,0 +1,29 @@
+[
+  {
+    "id": "123456",
+    "dateadded": "2024-01-15 10:30:00",
+    "url": "https://free-software-downloads.net/malware.exe",
+    "url_status": "online",
+    "threat": "malware",
+    "tags": "malware,software,download",
+    "urlhaus_reference": "https://urlhaus.abuse.ch/url/123456/"
+  },
+  {
+    "id": "123457",
+    "dateadded": "2024-01-14 15:20:00",
+    "url": "https://suspicious-file-share.com/virus.zip",
+    "url_status": "online",
+    "threat": "malware",
+    "tags": "malware,file-share,zip",
+    "urlhaus_reference": "https://urlhaus.abuse.ch/url/123457/"
+  },
+  {
+    "id": "123458",
+    "dateadded": "2024-01-13 09:15:00",
+    "url": "https://fake-antivirus-scanner.com/scan.exe",
+    "url_status": "online",
+    "threat": "malware",
+    "tags": "malware,antivirus,fake",
+    "urlhaus_reference": "https://urlhaus.abuse.ch/url/123458/"
+  }
+]

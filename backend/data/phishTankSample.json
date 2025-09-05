@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://paypal-security-verification.com/login",
+    "phish_id": "12345",
+    "verified": "yes",
+    "verification_time": "2024-01-15T10:30:00Z",
+    "online": "yes",
+    "target": "PayPal"
+  },
+  {
+    "url": "https://facebook-login-security.com/auth",
+    "phish_id": "12346",
+    "verified": "yes",
+    "verification_time": "2024-01-14T15:20:00Z",
+    "online": "yes",
+    "target": "Facebook"
+  },
+  {
+    "url": "https://amazon-account-verification.net/verify",
+    "phish_id": "12347",
+    "verified": "yes",
+    "verification_time": "2024-01-13T09:15:00Z",
+    "online": "yes",
+    "target": "Amazon"
+  }
+]

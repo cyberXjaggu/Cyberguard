@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Suspicious Phishing Domain Detected",
+    "description": "Domain 'paypal-security-verification.com' appears to be a phishing site targeting PayPal users. Multiple reports indicate this domain is being used to steal login credentials.",
+    "severity": "high",
+    "category": "phishing",
+    "domain": "paypal-security-verification.com",
+    "status": "new",
+    "tags": ["phishing", "paypal", "credential-theft"],
+    "evidence": [
+      {
+        "type": "url",
+        "value": "https://paypal-security-verification.com/login",
+        "description": "Suspicious login page"
+      }
+    ]
+  },
+  {
+    "title": "Malware Distribution Site Identified",
+    "description": "Domain 'free-software-downloads.net' has been identified as distributing malware disguised as legitimate software downloads.",
+    "severity": "critical",
+    "category": "malware",
+    "domain": "free-software-downloads.net",
+    "status": "investigating",
+    "tags": ["malware", "software", "distribution"],
+    "evidence": [
+      {
+        "type": "url",
+        "value": "https://free-software-downloads.net/downloads/",
+        "description": "Malware distribution page"
+      }
+    ]
+  },
+  {
+    "title": "Suspicious Banking Domain",
+    "description": "Domain 'chase-bank-verification.org' appears to be impersonating Chase Bank for phishing purposes.",
+    "severity": "high",
+    "category": "phishing",
+    "domain": "chase-bank-verification.org",
+    "status": "new",
+    "tags": ["phishing", "banking", "chase"],
+    "evidence": [
+      {
+        "type": "url",
+        "value": "https://chase-bank-verification.org/account",
+        "description": "Fake banking login page"
+      }
+    ]
+  },
+  {
+    "title": "Cryptocurrency Scam Site",
+    "description": "Domain 'bitcoin-investment-opportunity.com' is promoting a cryptocurrency investment scam with promises of unrealistic returns.",
+    "severity": "medium",
+    "category": "phishing",
+    "domain": "bitcoin-investment-opportunity.com",
+    "status": "new",
+    "tags": ["scam", "cryptocurrency", "investment"],
+    "evidence": [
+      {
+        "type": "url",
+        "value": "https://bitcoin-investment-opportunity.com/invest",
+        "description": "Investment scam page"
+      }
+    ]
+  },
+  {
+    "title": "Data Breach Alert - User Database Compromised",
+    "description": "Suspected data breach involving user credentials from multiple websites. Compromised data includes email addresses and hashed passwords.",
+    "severity": "critical",
+    "category": "data_breach",
+    "status": "investigating",
+    "tags": ["data-breach", "credentials", "compromise"],
+    "evidence": [
+      {
+        "type": "log",
+        "value": "breach_log_2024.txt",
+        "description": "Breach analysis log"
+      }
+    ]
+  },
+  {
+    "title": "Suspicious Domain with Typosquatting",
+    "description": "Domain 'gooogle.com' appears to be typosquatting Google's domain and may be used for malicious purposes.",
+    "severity": "medium",
+    "category": "suspicious_domain",
+    "domain": "gooogle.com",
+    "status": "new",
+    "tags": ["typosquatting", "google", "suspicious"],
+    "evidence": [
+      {
+        "type": "url",
+        "value": "https://gooogle.com",
+        "description": "Typosquatting domain"
+      }
+    ]
+  },
+  {
+    "title": "Fake Social Media Login Page",
+    "description": "Domain 'facebook-login-security.com' is hosting a fake Facebook login page designed to steal user credentials.",
+    "severity": "high",
+    "category": "phishing",
+    "domain": "facebook-login-security.com",
+    "status": "resolved",
+    "tags": ["phishing", "facebook", "social-media"],
+    "evidence": [
+      {
+        "type": "screenshot",
+        "value": "facebook_fake_login.png",
+        "description": "Screenshot of fake login page"
+      }
+    ],
+    "resolution": "Domain has been taken down and reported to hosting provider."
+  },
+  {
+    "title": "Suspicious Email Campaign",
+    "description": "Mass email campaign detected using domain 'urgent-security-update.net' to distribute phishing emails.",
+    "severity": "medium",
+    "category": "phishing",
+    "domain": "urgent-security-update.net",
+    "status": "new",
+    "tags": ["email", "campaign", "phishing"],
+    "evidence": [
+      {
+        "type": "file",
+        "value": "phishing_email_sample.eml",
+        "description": "Sample phishing email"
+      }
+    ]
+  }
+]
